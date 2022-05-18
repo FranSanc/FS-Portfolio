@@ -7,6 +7,7 @@ body {
     display: flex;
     color: #333;
     position: relative;
+    margin: 0 auto;
 }
 
 header {
@@ -42,7 +43,6 @@ header .heroImageContainer {
 header .heroImageContainer img {
     border-radius: 50%;
     position: relative;
-    margin-left: -40px;
     margin-right: 25%;
     width: 350px;
     height: 350px;
@@ -69,7 +69,11 @@ header .heroDescription h1 {
     font-size: 2.5rem;
     letter-spacing: 2px;
     margin: 14px 0;
-    justify-content: center;
+    
+}
+
+header .heroDescription h1 span {
+    color: #8444df;
 }
 
 header .heroDescription .smallBio {
@@ -80,6 +84,15 @@ header .heroDescription .smallBio {
     line-height: 1.4;
 }
 
+header .heroDescription .smallBio span {
+    color: #8444df;
+    font-size: 1.1rem;
+}
+
+header .navigation-links a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
 
 header .projects-link {
     background-color: #8444df;
@@ -97,7 +110,8 @@ header .projects-link {
 }
 
 header .contact-link{
-    background-color: #8444df;
+    background-color: #f7f7f7;
+    border: 1px solid;
     padding: 15px 35px;
     border-radius: 30px;
     letter-spacing: 2px;
@@ -106,8 +120,8 @@ header .contact-link{
     display: inline-block;
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    color: #f7f7f7;
-    text-decoration: none;
+    color:#8444df;
+   
 }
 
 
