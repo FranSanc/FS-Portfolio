@@ -1,13 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 125%;
+    background: #f7f7f7;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #333;
+    position: relative;
+}
+
+header {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+header .heroImageContainer {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+
+header .heroImageContainer img {
+    border-radius: 50%;
+    position: relative;
+    margin-left: -40px;
+    margin-right: 25%;
+    width: 350px;
+    height: 350px;
+    -webkit-box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
+    box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
+}
+
+header .heroDescription {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    padding: 20 15px;
+    width: 100%;
+
+}
+
+header .heroDescription .greeting {
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.2;
+}
+
+header .heroDescription h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 14px 0;
+    justify-content: center;
+}
+
+header .heroDescription .smallBio {
+    letter-spacing: 1px;
+    color: #5F6F81;
+    font-size: 1rem;
+    min-width: 250px;
+    line-height: 1.4;
+}
+
+
+header .projects-link {
+    background-color: #8444df;
+    border: 1px solid;
+    padding: 15px 35px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+header .contact-link{
+    background-color: #8444df;
+    padding: 15px 35px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+
 h1{
     font-family: 'Spectral', serif;
     font-weight: bolder;
     font-size: 55px;
 }
 
-h2{
+h2, p{
     font-family: 'Karla', sans-serif;
     font-weight: normal;
 }
+
+
+
+
 
 /*font-family: 'Karla', sans-serif;
 font-family: 'Spectral', serif;
