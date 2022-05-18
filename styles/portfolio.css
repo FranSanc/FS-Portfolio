@@ -10,6 +10,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 header {
     height: 100vh;
     display: -webkit-box;
@@ -44,8 +46,8 @@ header .heroImageContainer img {
     border-radius: 50%;
     position: relative;
     margin-right: 25%;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     -webkit-box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
     box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
 }
@@ -54,8 +56,7 @@ header .heroDescription {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    padding: 20 15px;
-    width: 100%;
+    width: 200%;
 
 }
 
@@ -80,7 +81,7 @@ header .heroDescription .smallBio {
     letter-spacing: 1px;
     color: #5F6F81;
     font-size: 1rem;
-    min-width: 250px;
+    min-width: 360px;
     line-height: 1.4;
 }
 
