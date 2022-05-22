@@ -1,100 +1,39 @@
 :root{
     --primary-color:#8444df;
-     --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
+     --background:#f7f7f7;
+     --text-color:#5F6F81;
 }
 
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 125%;
-    background: #f7f7f7;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #333;
-    position: relative;
-    margin: 0 auto;
+    background:var(--background);
+    margin-top: 100px;
+  margin: 0 auto;
 }
-
-
 
 header {
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    height: 90vh;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+   align-items: center;
     width: 100%;
 }
 
-header .heroImageContainer {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    padding: 0 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+main{
+  display: flex;
     justify-content: center;
-    width: 100%;
-    position: relative;
+   align-items: center;
+    width: 100%;  
 }
 
-
-header .heroImageContainer img {
-    border-radius: 50%;
-    position: relative;
-    margin-right: 25%;
-    width: 300px;
-    height: 300px;
-    -webkit-box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
-    box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
+header h1{
+    font-family:'Spectral', serif ;
 }
 
-header .heroDescription {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    width: 200%;
-
-}
-
-header .heroDescription .greeting {
-    letter-spacing: 1px;
-    font-size: 1rem;
-    line-height: 1.2;
-}
-
-header .heroDescription h1 {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    margin: 14px 0;
-    
-}
-
-header .heroDescription h1 span {
+span{
     color: var(--primary-color);
-}
-
-header .heroDescription .smallBio {
-    letter-spacing: 1px;
-    color: #5F6F81;
-    font-size: 1rem;
-    min-width: 360px;
-    line-height: 1.4;
-}
-
-header .heroDescription .smallBio span {
-    color: var(--primary-color);
-    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 header .navigation-links a {
@@ -132,38 +71,9 @@ header .contact-link{
    
 }
 
-
-h1{
-    font-family: 'Spectral', serif;
-    font-weight: bolder;
-    font-size: 55px;
-}
-
-h2, p{
-    font-family: 'Karla', sans-serif;
-    font-weight: normal;
-}
-
-main {
-    display: block;
-    margin-top: 600px;
-     position: relative;
+.section{
     margin: 0 auto;
 }
-
-section {
-    padding: 80px 0;
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-
-
 
 
 /*font-family: 'Karla', sans-serif;
