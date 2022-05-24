@@ -109,4 +109,8 @@ header .contact-link {
     padding: 12px 25px;
     font-size: 13px;
   }
+
+  .card img {
+    width: 100%;
+  }
 }
