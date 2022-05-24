@@ -1,7 +1,9 @@
 :root {
   --primary-color: #8444df;
+  --hover: #c3a7eb;
   --background: #f7f7f7;
   --text-color: #5f6f81;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -38,6 +40,7 @@ span {
 header .navigation-links a {
   text-decoration: none;
   text-transform: capitalize;
+  box-shadow: var(--box-shadow);
 }
 
 header .projects-link {
@@ -55,6 +58,11 @@ header .projects-link {
   text-decoration: none;
 }
 
+header .projects-link:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
 header .contact-link {
   background-color: #f7f7f7;
   border: 1px solid;
@@ -69,8 +77,9 @@ header .contact-link {
   color: var(--primary-color);
 }
 
-.section {
-  margin: 0 auto;
+header .contact-link:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
 
 .primary-link {
@@ -86,6 +95,27 @@ header .contact-link {
   transition: all 0.3s ease-in;
   color: #f7f7f7;
   text-decoration: none;
+  box-shadow: var(--box-shadow);
+}
+
+.primary-link:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.body-h2-title {
+  font-family: "Spectral", serif;
+  font-size: 40px;
 }
 
 @media (max-width: 960px) {
@@ -110,7 +140,18 @@ header .contact-link {
     font-size: 13px;
   }
 
-  .card img {
-    width: 100%;
+  .body-h2-title {
+    text-align: center;
+    font-size: 30px;
+  }
+  .card .primary-link {
+    padding: 20px 28px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .card .card-title .card-text {
+    text-align: center;
   }
 }
