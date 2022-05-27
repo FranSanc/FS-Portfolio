@@ -28,6 +28,11 @@ h2 {
   font-weight: lighter;
 }
 
+h3{
+  text-align: center;
+  font-family: "Spectral", serif;
+}
+
 p {
   margin-bottom: -10px;
 }
@@ -43,4 +48,18 @@ p {
 
 .about-me img {
   margin-left: 15px;
+}
+
+
+.software-tools {
+  text-align: center;
+  background-color: var(--hover);
+}
+
+.software-tools img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 50px 30px 30px;
 }
