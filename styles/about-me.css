@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #8444df;
+  --hover: #c3a7eb;
+  --background: #f7f7f7;
+  --text-color: #5f6f81;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--background);
+  margin-top: 100px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-size: 50px;
+}
+
+span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+p {
+  margin-bottom: -10px;
+}
+
+.about-me {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -45px;
+  width: 100%;
+}
+
+.about-me img {
+  margin-left: 15px;
+}
