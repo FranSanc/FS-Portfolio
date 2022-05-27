@@ -114,6 +114,7 @@ header .contact-link:hover {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: var(--box-shadow);
 }
 .body-h2-title {
   font-family: "Spectral", serif;
