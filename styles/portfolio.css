@@ -121,6 +121,39 @@ header .contact-link:hover {
   font-size: 40px;
 }
 
+.logo{
+  max-height: 150px;
+  list-style: none;
+
+}
+nav{
+  padding: 20px, 0;
+}
+
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 152px;
+  margin-left: 15px;
+}
+
+nav ul{
+  padding:0;
+  margin:0;
+}
+nav a{
+  text-decoration: none;
+  color:#272142;
+  transition: all 100ms ease-in-out;
+}
+
+
+
+nav a:hover, nav li.active a {
+  color:var(--primary-color);
+}
+
+
 @media (max-width: 960px) {
   header {
     height: 80vh;
@@ -136,6 +169,7 @@ header .contact-link:hover {
   }
   header {
     text-align: center;
+    margin-top: 20px;
   }
 
   header .navigation-links a {
@@ -156,5 +190,19 @@ header .contact-link:hover {
   }
   .card .card-title .card-text {
     text-align: center;
+  }
+  nav a{
+    font-size: 17px;
+  }
+
+  nav li{
+  margin-left: 10px;
+  margin-right: 2.4px;
+  
+  }
+
+  nav ul{
+    margin-top: -10px;
+
   }
 }
