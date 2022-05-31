@@ -153,6 +153,31 @@ nav a:hover, nav li.active a {
   color:var(--primary-color);
 }
 
+footer {
+    background:#f3eefd ;
+    border-top: 1px solid white;
+   border-bottom: 1px solid white;
+    text-align: center;
+    }
+
+footer .social-media-links {
+    margin: 20px auto 15px;
+    font-size: 30px;
+}
+
+footer p {
+    font-size: 15px;
+   
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all 150ms ease-in-out;
+}
+
+
+
 
 @media (max-width: 960px) {
   header {
@@ -177,6 +202,8 @@ nav a:hover, nav li.active a {
     font-size: 13px;
   }
 
+
+  
   .body-h2-title {
     text-align: center;
     font-size: 30px;
