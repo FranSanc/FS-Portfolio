@@ -32,8 +32,6 @@ header h1 {
   font-family: "Spectral", serif;
 }
 
-
-
 span {
   color: var(--primary-color);
   font-weight: bold;
@@ -121,63 +119,67 @@ header .contact-link:hover {
   font-size: 40px;
 }
 
-.logo{
+.logo {
   max-height: 150px;
   list-style: none;
-
 }
-nav{
+nav {
   padding: 20px, 0;
 }
 
-nav li{
+nav li {
   display: inline;
   list-style: none;
   line-height: 152px;
   margin-left: 15px;
 }
 
-nav ul{
-  padding:0;
-  margin:0;
+nav ul {
+  padding: 0;
+  margin: 0;
 }
-nav a{
+nav a {
   text-decoration: none;
-  color:#272142;
+  color: #272142;
   transition: all 100ms ease-in-out;
 }
 
-
-
-nav a:hover, nav li.active a {
-  color:var(--primary-color);
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
 }
 
 footer {
-    background:#f3eefd ;
-    border-top: 1px solid white;
-   border-bottom: 1px solid white;
-    text-align: center;
-    }
+  background: #ece3f9;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
 
 footer .social-media-links {
-    margin: 20px auto 15px;
-    font-size: 30px;
+  margin: 20px auto 15px;
+  font-size: 40px;
+}
+
+footer .social-media-links a:hover {
+  color: var(--hover);
 }
 
 footer p {
-    font-size: 15px;
-   
+  font-size: 15px;
 }
 
 footer a {
-    text-decoration: none;
-    color: var(--primary-color);
-    transition: all 150ms ease-in-out;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 150ms ease-in-out;
+  font-weight: bolder;
+  
 }
 
-
-
+footer a:hover {
+  color: var(--hover);
+}
 
 @media (max-width: 960px) {
   header {
@@ -202,8 +204,6 @@ footer a {
     font-size: 13px;
   }
 
-
-  
   .body-h2-title {
     text-align: center;
     font-size: 30px;
@@ -218,18 +218,26 @@ footer a {
   .card .card-title .card-text {
     text-align: center;
   }
-  nav a{
+  nav a {
     font-size: 17px;
   }
 
-  nav li{
-  margin-left: 10px;
-  margin-right: 2.4px;
-  
+  nav li {
+    margin-left: 10px;
+    margin-right: 2.4px;
   }
 
-  nav ul{
+  nav ul {
     margin-top: -10px;
-
   }
+
+  footer .social-media-links{
+    font-size: 35px;
+  }
+footer p{
+  font-size: 12px;
+  margin-top: -15px;
+}
+
+
 }
