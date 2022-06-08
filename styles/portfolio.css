@@ -37,13 +37,13 @@ span {
   font-weight: bold;
 }
 
-header .navigation-links a {
+.navigation-links a {
   text-decoration: none;
   text-transform: capitalize;
   box-shadow: var(--box-shadow);
 }
 
-header .projects-link {
+.projects-link {
   background-color: var(--primary-color);
   border: 1px solid;
   padding: 15px 35px;
@@ -58,12 +58,12 @@ header .projects-link {
   text-decoration: none;
 }
 
-header .projects-link:hover {
+.projects-link:hover {
   background-color: white;
   color: var(--primary-color);
 }
 
-header .contact-link {
+.contact-link {
   background-color: #f7f7f7;
   border: 1px solid;
   padding: 15px 35px;
@@ -77,7 +77,7 @@ header .contact-link {
   color: var(--primary-color);
 }
 
-header .contact-link:hover {
+.contact-link:hover {
   background-color: var(--primary-color);
   color: white;
 }
@@ -117,6 +117,12 @@ header .contact-link:hover {
 .body-h2-title {
   font-family: "Spectral", serif;
   font-size: 40px;
+}
+
+.card-text a{
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .logo {
