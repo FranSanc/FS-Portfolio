@@ -16,35 +16,6 @@ body {
 .logo {
   max-height: 150px;
   list-style: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-nav {
-  padding: 20px, 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 152px;
-  margin-left: 15px;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav a,
-.container a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a,
-.container a:hover {
-  color: var(--primary-color);
 }
 
 footer {
@@ -123,11 +94,6 @@ span {
 .contact-link:hover {
   background-color: white;
   color: var(--primary-color);
-}
-
-img {
-  border-radius: 15px;
-  box-shadow: var(--box-shadow);
 }
 
 @media (max-width: 960px) {

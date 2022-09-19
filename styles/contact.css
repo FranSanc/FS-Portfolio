@@ -27,37 +27,8 @@ h2 {
 .logo {
   max-height: 150px;
   list-style: none;
-  border-radius: 0;
-  box-shadow: none;
 }
 
-nav {
-  padding: 20px, 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 152px;
-  margin-left: 15px;
-  font-family: "Poppins", sans-serif;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--primary-color);
-}
 
 footer {
   background: #ece3f9;
