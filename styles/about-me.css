@@ -12,37 +12,12 @@ body {
   margin-top: 100px;
   margin: 0 auto;
 }
+
 .logo {
   max-height: 150px;
   list-style: none;
-  border-radius: 0;
-  box-shadow: none;
-}
-nav {
-  padding: 20px, 0;
 }
 
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 152px;
-  margin-left: 15px;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav a {
-  text-decoration: none;
-  color: #272142;
-  transition: all 100ms ease-in-out;
-}
-
-nav a:hover,
-nav li.active a {
-  color: var(--primary-color);
-}
 
 footer {
   background: #ece3f9;
@@ -97,8 +72,9 @@ h3{
   font-size: 40px;
 }
 
-p {
+.small-bio p {
   margin-bottom: -10px;
+ 
 }
 
 .about-me {
@@ -111,10 +87,15 @@ p {
 }
 
 .about-me img {
-  margin-left: 15px;
+  
+  margin-top: -22px;
+ border-radius: 25px;
 }
 
-
+.experience{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 .software-tools {
   text-align: center;
   background-color: var(--hover);
