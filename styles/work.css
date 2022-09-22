@@ -96,6 +96,12 @@ span {
   color: var(--primary-color);
 }
 
+.experience{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
 @media (max-width: 960px) {
   body {
     text-align: center;
